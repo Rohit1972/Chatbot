@@ -1,4 +1,4 @@
-const api = "AIzaSyDoNvBYkBVyfe4LaBriUqwjIZgx00F9ewU";
+const api = "AIzaSyDgbkpNGv7XUMhTsDPSdDtkFgdDrtYnkpE";
 
 import {
   GoogleGenerativeAI,
