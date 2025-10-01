@@ -1,5 +1,5 @@
 import Sidebar from "./components/Sidebar/Sidebar"
-import Separation from "./components/separation/separation"
+import Separation from "./components/separation/Separation"
 import ChatSection from "./components/chatSection/chatSection"
 
 function App() {
