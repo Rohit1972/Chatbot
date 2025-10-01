@@ -9,7 +9,7 @@ import {
 const genAI = new GoogleGenerativeAI(api);
 
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-flash",
+  model: "gemini-2.5-flash",
 });
 
 const generationConfig = {
@@ -27,8 +27,10 @@ async function run(prompt) {
   });
 
   const result = await chatSession.sendMessage(prompt);
-    console.log(result.response.text());
-    return result.response.text()
+  const result = await chatSession.sendMessage(prompt);
+  const output = result.response.text();
+  console.log(output);
+  return output;
 }
 
 export default run;
